@@ -4,7 +4,7 @@
 #### Clone repo
 Run the command to clone this github repository and change the directory to the project's folder:
 ```bash
-git clone https://github.com/vsevdrob/api-go-gin-viper.git && cd api-go-gin-viper
+git clone https://github.com/vsevdrob/api-go-gin-viper.git && cd api-go-gin-viper/src
 ```
 #### Before run some commands to download some Go dependencies first.
 This will download one of the coolest HTTP web framework written in Go (Golang).
@@ -16,6 +16,13 @@ Viper helps us to to operate with the predefined `config.yaml` file in order to 
 go get github.com/spf13/viper
 ```
 # Usage 
+## Start server
+Run the command that starts the server on host `127.0.0.1` and port `8080`.
+```bash
+go run main.go
+```
+After that open another terminal window and insure the path of current working directory is `*/api-go-gin-viper/src/`
+___
 ## Add funder
 Adds a funder to the DB. Assuming that *address* and *amount* keys/values in `single_funder.json` are predefined by Frontend.
 ```bash
