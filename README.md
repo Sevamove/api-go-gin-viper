@@ -53,3 +53,5 @@ Delete a funder from DB. Assign funder's **`id`** in the query to delete the pre
 ```bash
 curl localhost:8080/delete-funder?id=1 --request "DELETE"
 ```
+# Licence
+**MIT**
