@@ -6,7 +6,7 @@ Run the command to clone this github repository and change the directory to the 
 ```bash
 git clone https://github.com/vsevdrob/api-go-gin-viper.git && cd api-go-gin-viper/src
 ```
-#### Before run some commands to download some Go dependencies first.
+#### Before run some commands, download some Go dependencies first.
 This will download one of the coolest HTTP web framework written in Go (Golang).
 ```bash
 go get github.com/gin-gonic/gin
