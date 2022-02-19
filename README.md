@@ -2,16 +2,17 @@
 
 ## To Get Started
 #### Clone repo
-Run the command to clone this github repository and change the directory to the project's folder:
+1. Make sure you have [Go](https://go.dev/) installed on your computer.
+2. Run the command to clone this github repository and change the directory to the project's folder:
 ```bash
 git clone https://github.com/vsevdrob/api-go-gin-viper.git && cd api-go-gin-viper/src
 ```
-#### Before run some commands, download some Go dependencies first.
-This will download one of the coolest HTTP web framework written in Go (Golang).
+#### Before we run the programme, let's download a couple of Go dependencies first.
+3. This will download one of the coolest HTTP web framework [gin](https://github.com/gin-gonic/gin) written in Go (Golang).
 ```bash
 go get github.com/gin-gonic/gin
 ```
-Viper helps us to to operate with the predefined `config.yaml` file in order to export some required values from it.
+4. [Viper](https://github.com/spf13/viper) helps us to to operate with the predefined `config.yaml` file in order to export some required values from it.
 ```bash
 go get github.com/spf13/viper
 ```
